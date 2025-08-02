@@ -97,12 +97,6 @@
                 case 'ArrowRight':
                     mesh.position.x += 0.1;
                     break;
-                case ' ':
-                    if (!isJumping) {
-                        velocityY = 0.2;
-                        isJumping = true;
-                    }
-                    break;
                 case 'c':
                 case 'C':
                     mesh.material.color.set(Math.random() * 0xffffff); // เปลี่ยนสีแบบสุ่ม
